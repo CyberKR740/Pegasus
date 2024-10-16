@@ -1,0 +1,111 @@
+segou_okoy/
+│
+├── adjetivos/
+│   ├── __init__.py
+│   └── adjetivos_vision.py
+│
+├── lugares/
+│   ├── __init__.py
+│   └── lugares_engoy.py
+│ 
+├── preposicoes/
+│   ├── __init__.py
+│   └── sobu_preposicoes.py
+│
+├── Pronome/
+│   ├── __init__.py
+│   └── sopregx_pronomes.py
+│
+├── Verbo/
+│   ├── __init__.py
+│   └── verbo_envico.py
+│
+├── Artigo/
+│   ├── __init__.py
+│   └── artigo_sobouy.py
+│
+├── Conjuncao/
+│   ├── __init__.py
+│   └── Conjuncao_envine.py
+│
+├── Interjeicao/
+│   ├── __init__.py
+│   └── Interjeicao_yum.py
+│
+├── Numeral/
+│   ├── __init__.py
+│   └── numerals_inuto.py
+│
+├── Adverbio/
+│   ├── __init__.py
+│   └── numerals_inuto.py
+│
+├── substantivos/
+│   ├── __init__.py
+│   └── substantivo_imperio.py
+│
+├── verbos/
+│   ├── __init__.py
+│   └── agentes_verbais.py
+│
+├── contexto/
+│   ├── __init__.py                  # Para manter o histórico do diálogo e contexto
+│   └── memoria_contextual.py
+│
+├── data/                            # Coleta de dados de diferentes fontes (scraping, APIs)
+│   ├── __init__.py
+│   └── data_collection.py
+│
+├── entidades/                       # Identificação de entidades nomeadas (pessoas, lugares, datas)
+│   ├── __init__.py
+│   └── reconhecimento_entidades.py
+│
+├── semantica/                       # Análise semântica e relações entre conceitos
+│   ├── __init__.py
+│   └── compreensao_significado.py
+│
+├── sintaxe/                         # Análise sintática e dependências gramaticais
+│   ├── __init__.py
+│   └── estrutura_frases.py
+│
+├── pragmatica/                      # Análise pragmática (intenção, contexto social e cultural)
+│   ├── __init__.py
+│   └── inferencia_pragmatica.py
+│
+├── raciocinio/                      # Raciocínio lógico e inferência dedutiva/ Resolução de problemas matemáticos e lógicos
+│   ├── __init__.py
+│   └── logica_dedutiva.py           
+│   └── resolucao_problemas.py
+│
+├── tempo/                           # Entendimento de conceitos temporais (passado, presente, futuro)
+│   ├── __init__.py
+│   └── interpretacao_temporal.py
+│
+├── modelos/
+│   ├── __init__.py
+│   ├── nlp_model.py                 # Modelos de NLP (como transformers, embeddings)
+│   ├── pergunta_resposta.py         # Algoritmo de perguntas e respostas (resposta baseada em contexto)
+│   ├── recuperacao_informacao.py    # Módulo de busca e recuperação de informações em bases de conhecimento
+│   ├── treinamento.py               # Treinamento de modelos e ajuste fino
+│
+├── multimodal/
+│   ├── __init__.py
+│   └── interpretacao_imagens.py     # Interpretação de dados visuais
+│   └── interpretacao_audio.py       # Interpretação de áudio
+│
+├── utilitarios/
+│   ├── __init__.py
+│   └── processamento_texto.py       # Funções auxiliares para processamento de texto (tokenização, limpeza)
+│   └── nlp_utilitarios.py           # Funções úteis de NLP (ex: embeddings, tokenizadores)
+│
+├── testes/
+│   ├── __init__.py
+│   └── testes_unitarios.py          # Casos de teste para validar componentes individuais
+│   └── testes_integrais.py          # Casos de teste para validar a integração de módulos
+│
+├── app/
+│   ├── __init__.py
+│   └── api.py                       # API para servir respostas da IA (usando Flask, FastAPI, etc.)
+│   └── frontend_interface.py        # Interface de usuário ou chat frontend
+│
+└── segou_okoy.py                    # Arquivo principal que orquestra a execução do projeto

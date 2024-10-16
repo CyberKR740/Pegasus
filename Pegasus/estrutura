@@ -1,0 +1,62 @@
+Pegasus/
+│
+├── org_ortografo/
+│   ├── __init__.py
+│   ├── biotxa.py
+│   └── dependences.txt
+|
+├── unicodeNLP/
+│   ├── __init__.py
+│   └── normalized.py
+|
+├── receita/
+│   ├── __init__.py
+│   └── queey.py
+│
+├── Aliga/
+│   ├── __init__.py
+│   └── dependences.py
+│
+├── data_base/
+│   ├── __init__.py
+│   └── database.py
+│
+├── IAFGen_GConsole/
+│   ├── adjetivos/
+│   │   ├── __init__.py
+│   │   └── adjetivos_vision.py
+│   ├── lugares/
+│   │   ├── __init__.py
+│   │   └── lugares_engoy.py
+│   ├── preposicoes/
+│   │   ├── __init__.py
+│   │   └── sobu_preposicoes.py
+│   │
+│   ├── substantivos/
+│   │   ├── __init__.py
+│   │   └── substantivo_imperio.py
+│   │ 
+│   ├── verbos/
+│   │   ├── __init__.py
+│   │   └── agentes_verbais.py
+│   │ 
+│   ├── __init__.py
+│   ├── estrutura
+│   └── segou_okoy.py    
+│ 
+├── CohereAI/
+│   ├── __init__.py
+│   └── Cohere_yowa.py
+│
+├── Analyzer/
+│   ├── __init__.py
+│   └── Analyzer.py
+│
+└── phegasus_bot.py
+    ├── __init__.py
+    │── aki_waiko.py
+    ├── dylordayler.py
+    └── estrutura
+    
+	____ Ohayoo Darleny p: Sophia, Jarvis, dantes - igor - Gideon.
+

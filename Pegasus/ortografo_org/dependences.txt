@@ -1,0 +1,14 @@
+pip install hunspell
+
+sudo localedef -i pt_BR -f UTF-8 pt_BR.UTF-8
+export LANG=pt_BR.UTF-8
+export LC_ALL=pt_BR.UTF-8
+sudo update-locale LANG=pt_BR.UTF-8 LC_ALL=pt_BR.UTF-8
+sudo nano /etc/locale.gen
+sudo locale-gen
+
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install libhunspell-dev
+sudo apt-get install hunspell
+sudo apt-get install hunspell-pt-br
